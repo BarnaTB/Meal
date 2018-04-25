@@ -13,18 +13,8 @@ p {
     color: rgb(49, 92, 134);
 }
 
-fieldset {
-    color: red;
-    background-color: antiquewhite;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 60px;
-    padding-left: 80px;
-    opacity: 0.5;
-    border: 2px solid navy;
-}
 
-a.nav{
+a{
     font-weight: bold;
     border: crimson;
     font-size: 20px;
