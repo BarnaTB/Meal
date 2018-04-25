@@ -1,9 +1,11 @@
 body {
     background-image: url("https://images7.alphacoders.com/382/382535.jpg");
     text-align: center; 
+    align-content: center;
 }
 
-div {
+
+div, .menu {
     color: midnightblue;
 }
 
