@@ -33,7 +33,7 @@ a.nav{
     color: azure;
 }
 li {
-    float: inherit;
+    float: left;
 }
 
 ul {
