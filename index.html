@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book A Meal</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0" >
+    </head>
+    <body>
+        <div>
+            <a class = "reg" href = "#reg">Create Account</a>
+            <a class = "signin" href = "#signin">Sign-in</a>
+        </div class = "reg_set">
+            <form>
+                <div class = "field_Set">
+                    <fieldset>
+                        <legend>Registration Information:</legend>
+                        First name:<br>
+                        <input type = "text" placeholder = "Enter first name..."><br>
+                        Last name:<br>
+                        <input type = "text" placeholder = "Enter second name..."><br>
+                        Birth Date:<br>
+                        <input type = "date" name = "bday"><br>
+                        Email Address:<br>
+                        <input type = "email" name = "useremail" placeholder = "e.g you@example.com"><br>
+                        Phone Number:<br>
+                        <input type = "tel" name = "telnumber"><br>
+                        Create Password:<br>
+                        <input type = "password" placeholder = "include @, &, and * "><br>
+                        Retype Password:<br>
+                        <input type = "password" placeholder = "same entered in 'Create Password' field"> <br><br>
+                        <input type = "submit" name = "submit" value = "Submit">
+                    </fieldset>
+                </div>
+            </form>
+        <div class = "signin">        
+            <form>
+                <fieldset>
+                    <legend class = "sigin_info">Sign-in Information</legend>
+                    Username:<br>
+                    <input type = "email" placeholder = "registered email"><br>
+                    Password:<br>
+                    <input type = "password" placeholder = "Book A Meal password"><br><br>
+                    <a href="./home.html"><input type = "submit" name = "submit" value = "Start Ordering"></a>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

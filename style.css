@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://images7.alphacoders.com/382/382535.jpg");
+}
+
+fieldset {
+    color: red;
+}
+
+a.nav{
+    font-weight: bold;
+    border: crimson;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    background-color: firebrick;
+    color: azure;
+}
