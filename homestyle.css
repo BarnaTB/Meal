@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://images7.alphacoders.com/382/382535.jpg");
+    text-align: center; 
+    align-content: center;
+}
+
+
+div, .menu {
+    color: midnightblue;
+}
+
+p {
+    color: rgb(49, 92, 134);
+}
+
+fieldset {
+    color: red;
+    background-color: antiquewhite;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    opacity: 0.5;
+    border: 2px solid navy;
+}
+
+a.nav{
+    font-weight: bold;
+    border: crimson;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    background-color: firebrick;
+    color: azure;
+}
+li {
+    float: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    overflow: hidden;
+    background-color: midnightblue;
+}
+
+li a{
+    display: block;
+    color: orangered;
+    display: inline; 
+    float: left;  
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(49, 92, 134);
+}
+
+.active {
+    background-color: lightsteelblue;
+}
