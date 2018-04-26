@@ -5,16 +5,25 @@ body {
 }
 
 
-div, .menu {
+.menu {
     color: midnightblue;
+    align-content: center;
 }
+
+.ord_btn {
+    background-color: brown;
+}
+
 .lunch, .breakfast{
-    color: aquamarine;
-    align-content: center
+    text-align: center;
+    opacity: 0.7;
+    margin: auto;
 }
 
 p {
-    color: rgb(49, 92, 134);
+    color: rgb(84, 155, 226);
+    text-align: center;
+    padding: 20px;
 }
 
 
@@ -23,6 +32,7 @@ a{
     border: crimson;
     font-size: 20px;
     font-family: 'Lucida Sans';
+    background-color: rgb(34, 166, 178);
     color: azure;
 }
 li {
@@ -40,7 +50,7 @@ ul {
 
 li a{
     display: block;
-    color: rgb(255, 187, 0);
+    color:crimson;
     display: inline; 
     float: left;  
     padding: 15px 17px;
