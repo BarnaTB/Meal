@@ -8,6 +8,10 @@ body {
 div, .menu {
     color: midnightblue;
 }
+.lunch, .breakfast{
+    color: aquamarine;
+    align-content: center
+}
 
 p {
     color: rgb(49, 92, 134);
@@ -19,7 +23,7 @@ a{
     border: crimson;
     font-size: 20px;
     font-family: 'Lucida Sans';
-    background-color: firebrick;
+    background-color: rgb(34, 166, 178);
     color: azure;
 }
 li {
@@ -37,7 +41,7 @@ ul {
 
 li a{
     display: block;
-    color: orangered;
+    color: rgb(255, 187, 0);
     display: inline; 
     float: left;  
     padding: 15px 17px;
