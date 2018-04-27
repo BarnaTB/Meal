@@ -2,6 +2,7 @@ body {
     background-image: url("http://yesofcorsa.com/wp-content/uploads/2018/04/Buckwheat-Porridge-Wallpaper-1024x683.jpg");
     text-align: center; 
     align-content: center;
+    background-size: cover;
 }
 
 
@@ -52,7 +53,7 @@ li a{
     display: block;
     color:crimson;
     display: inline; 
-    float: left;  
+     
     padding: 15px 17px;
     text-decoration: none;
 }
