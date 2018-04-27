@@ -13,6 +13,11 @@ body {
 
 li {
     display: inline;
+    background-color: chocolate
+}
+
+li:hover {
+    background-color: rgb(210, 147, 30)
 }
 
 p {
@@ -22,8 +27,8 @@ p {
 button {
     width: 200px;
     padding:10px;
-    background-color: red;
-    border-color: red;
+    background-color: rgb(114, 55, 1);
+    border-color: rgb(114, 55, 1);
     color:#fff;
 }
 
